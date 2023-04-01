@@ -1,0 +1,60 @@
+.row_items{
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+    background: white;
+    margin:5px;
+}
+
+
+
+.row_item{
+    max-height: 200px;
+    transition:transform 45ms;
+    border: 2px;
+    border-radius: 5px;
+    z-index: 1;
+    background: white;
+    margin-left:55px;
+    margin-left: 63px;
+
+}
+
+
+
+.row_item_large{
+    width: 250px;
+    padding: 10px;
+    border: 2px;
+    background: white;
+}
+
+.bookBtn{
+    position: top;
+    background-color: red;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+    height: 32px;
+    width: 100px;
+    cursor: pointer;
+    display:block;
+    margin-left:75px;
+    
+}
+.hideBookBtn{
+    display: none;
+}
+
+.span{
+ 
+    background: white;
+    
+}
+
+.link,
+.link:hover,
+.link:visited{
+    text-decoration: none;
+    color:white;
+}
